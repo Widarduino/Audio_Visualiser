@@ -42,7 +42,7 @@ void appendchar(char *array, char symbol) {
 void display(fftw_complex *out, int compression, double amplitude) {
   static int snapshots = 0;
 
-  char buffer[5000] = "\n\t|SOUND_VISUALIZER_V1.0|\n";
+  char buffer[8000] = "\n\t|SOUND_VISUALIZER_V1.0|\n";
   int counter= 0;
   double avg;
 

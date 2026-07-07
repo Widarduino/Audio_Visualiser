@@ -5,11 +5,11 @@
       "-c",
       "-g",
       "-o",
-      "out",
+      "Visualizer",
       "fft.c"
     ],
     "directory": "/home/widar/Pipewire/Sampler/fft_C",
     "file": "/home/widar/Pipewire/Sampler/fft_C/fft.c",
-    "output": "/home/widar/Pipewire/Sampler/fft_C/out"
+    "output": "/home/widar/Pipewire/Sampler/fft_C/Visualizer"
   }
 ]

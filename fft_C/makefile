@@ -1,7 +1,7 @@
 CC=gcc
 SRCS=fft.c
 CCFLAGS= -lfftw3 -lm -g
-bin=out
+bin=Visualizer
 
 all:
 	$(CC) $(SRCS) -o  $(bin) $(CCFLAGS)
