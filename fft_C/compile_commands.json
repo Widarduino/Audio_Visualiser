@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-g",
+      "-o",
+      "out",
+      "fft.c"
+    ],
+    "directory": "/home/widar/Pipewire/Sampler/fft_C",
+    "file": "/home/widar/Pipewire/Sampler/fft_C/fft.c",
+    "output": "/home/widar/Pipewire/Sampler/fft_C/out"
+  }
+]
