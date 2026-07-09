@@ -6,3 +6,7 @@ bin=Visualizer
 all:
 	$(CC) $(SRCS) -o  $(bin) $(CCFLAGS)
 
+clean: 
+	rm -f ./*.txt $(bin) ./*.json
+
+

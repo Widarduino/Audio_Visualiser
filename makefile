@@ -1,9 +1,10 @@
 CC=gcc
 SRC=main.c
 CFLAGS= -lm $$(pkg-config --cflags --libs libpipewire-0.3)
+BIN=FFT_SINK
 
 all:
-	$(CC) $(SRC) -o FFT_Sink $(CFLAGS)
+	$(CC) $(SRC) -o $(BIN) $(CFLAGS)
 
 clean:
-	rm out
+	rm -f $(BIN) ./*.json ./pygraph/*.txt
